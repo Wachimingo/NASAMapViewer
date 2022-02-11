@@ -1,0 +1,25 @@
+{
+  "name": "nasaviewer",
+  "version": "1.0.0",
+  "description": "NASA viewer is a simple web app that allows user to look at aerial pics of any location on Earth",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "NASA",
+    "pic",
+    "viewer"
+  ],
+  "author": "Joshua Herrera",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "coordinate-parser": "^1.0.7",
+    "express": "^4.17.2"
+  }
+}
